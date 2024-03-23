@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f3f6f2;
+}
+
+@layer components {
+  .container {
+    @apply w-[90%] max-w-screen-xl mx-auto;
+  }
+  .error {
+    @apply text-[#FF283F];
+  }
+}
+
+.rbt-input-main {
+  width: 380px;
+  padding: 5px;
+  color: black;
+}
+
+.dropdown-menu {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  z-index: 1;
+}
